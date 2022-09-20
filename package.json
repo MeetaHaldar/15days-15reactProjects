@@ -4,9 +4,10 @@
     "packages/*"
   ],
   "scripts": {
-    "build:all": "pnpm build:reminder && pnpm build:tours",
+    "build:all": "pnpm build:reminder && pnpm build:tours && pnpm build:reviews",
     "build:reminder": "cross-env BUILD_PATH=../../dist/reminder pnpm --filter reminder build",
-    "build:tours": "cross-env BUILD_PATH=../../dist/tours pnpm --filter tours build"
+    "build:tours": "cross-env BUILD_PATH=../../dist/tours pnpm --filter tours build",
+    "build:reviews": "cross-env BUILD_PATH=../../dist/reviews pnpm --filter reviews build"
   },
   "dependencies": {
     "react": "^18.2.0",

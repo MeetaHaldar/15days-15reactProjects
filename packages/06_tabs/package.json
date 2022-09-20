@@ -1,6 +1,7 @@
 {
   "name": "tabs",
   "version": "0.1.0",
+  "homepage": "https://MeetaHaldar.github.io/15days-15reactProjects/tabs",
   "private": true,
   "dependencies": {},
   "scripts": {

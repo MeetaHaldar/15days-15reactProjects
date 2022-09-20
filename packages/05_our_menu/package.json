@@ -1,6 +1,7 @@
 {
   "name": "menu",
   "version": "0.1.0",
+  "homepage": "https://MeetaHaldar.github.io/15days-15reactProjects/menu",
   "private": true,
   "dependencies": {},
   "scripts": {

@@ -3,6 +3,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build:all": "pnpm build:reminder && pnpm build:tours",
+    "build:reminder": "cross-env BUILD_PATH=../../dist/reminder pnpm --filter reminder build",
+    "build:tours": "cross-env BUILD_PATH=../../dist/tours pnpm --filter tours build"
+  },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -11,5 +16,8 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^14.4.3"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
   }
 }

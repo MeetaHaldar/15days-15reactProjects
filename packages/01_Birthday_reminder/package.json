@@ -1,10 +1,11 @@
 {
   "name": "reminder",
   "version": "0.1.0",
+  "homepage": "https://MeetaHaldar.github.io/15days-15reactProjects/reminder",
   "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI= react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

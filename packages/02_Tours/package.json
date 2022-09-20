@@ -1,6 +1,7 @@
 {
   "name": "tours",
   "version": "0.1.0",
+  "homepage": "https://MeetaHaldar.github.io/15days-15reactProjects/tours",
   "private": true,
   "dependencies": {},
   "scripts": {

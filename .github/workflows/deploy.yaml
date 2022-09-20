@@ -29,11 +29,11 @@ jobs:
       matrix:
         os: [ ubuntu-latest ]
         node: [ 16 ]
-        
+
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3

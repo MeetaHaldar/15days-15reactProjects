@@ -56,6 +56,12 @@ importers:
     dependencies:
       values.js: 2.1.1
 
+  packages/10_grocery_bud:
+    specifiers: {}
+
+  packages/11_navbar:
+    specifiers: {}
+
 packages:
 
   /@adobe/css-tools/4.0.1:

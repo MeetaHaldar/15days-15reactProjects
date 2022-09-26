@@ -11,5 +11,5 @@
 9. [color Generator](https://MeetaHaldar.github.io/15days-15reactProjects/color)
 10. [grocery bud](https://MeetaHaldar.github.io/15days-15reactProjects/grocery)
 11. [Navbar](https://MeetaHaldar.github.io/15days-15reactProjects/nav)
-12. [Sidebar](https://MeetaHaldar.github.io/15days-15reactProjects/Sidebar)
+12. [Sidebar](https://MeetaHaldar.github.io/15days-15reactProjects/sidebar)
 

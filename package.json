@@ -4,7 +4,7 @@
     "packages/*"
   ],
   "scripts": {
-    "build:all": "pnpm build:reminder && pnpm build:tours && pnpm build:reviews && pnpm build:accordion && pnpm build:menu && pnpm build:tabs && pnpm build:slider && pnpm build:lorem && pnpm build:color && pnpm build:grocery && pnpm build:nav",
+    "build:all": "pnpm build:reminder && pnpm build:tours && pnpm build:reviews && pnpm build:accordion && pnpm build:menu && pnpm build:tabs && pnpm build:slider && pnpm build:lorem && pnpm build:color && pnpm build:grocery && pnpm build:nav && pnpm build:sidebar",
     "build:reminder": "cross-env BUILD_PATH=../../dist/reminder pnpm --filter reminder build",
     "build:tours": "cross-env BUILD_PATH=../../dist/tours pnpm --filter tours build",
     "build:reviews": "cross-env BUILD_PATH=../../dist/reviews pnpm --filter reviews build",
@@ -15,7 +15,8 @@
     "build:lorem": "cross-env BUILD_PATH=../../dist/lorem pnpm --filter lorem build",
     "build:color": "cross-env BUILD_PATH=../../dist/color pnpm --filter color build",
     "build:grocery": "cross-env BUILD_PATH=../../dist/grocery pnpm --filter grocery build",
-    "build:nav": "cross-env BUILD_PATH=../../dist/nav pnpm --filter nav build"
+    "build:nav": "cross-env BUILD_PATH=../../dist/nav pnpm --filter nav build",
+    "build:sidebar": "cross-env BUILD_PATH=../../dist/sidebar pnpm --filter sidebar build"
   },
   "dependencies": {
     "react": "^18.2.0",

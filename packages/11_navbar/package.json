@@ -3,8 +3,7 @@
   "version": "0.1.0",
   "homepage": "https://MeetaHaldar.github.io/15days-15reactProjects/nav",
   "private": true,
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "start": "react-scripts start",
     "build": "CI= react-scripts build",
